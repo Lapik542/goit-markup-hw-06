@@ -1,0 +1,43 @@
+@media screen and (min-width: 320px) {
+  .footer-contant {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+  }
+  .logotype-footer {
+    margin-left: 70px;
+  }
+  .footer-contant-left {
+    margin: 0 auto;
+  }
+  .text-footer {
+    margin-bottom: 72px;
+  }
+  .paragraph-footer {
+    margin-left: 54px;
+  }
+  .subscribe-paragraph-footer {
+    margin-top: 62px;
+    margin-left: 95px;
+  }
+  .subscribe-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+  }
+  .email-label {
+    width: 288px;
+    margin-right: 50px;
+  }
+  .button-subscribe-footer {
+    padding-left: 10px;
+    width: 165px;
+    margin-right: 70px;
+  }
+}
