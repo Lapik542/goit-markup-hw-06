@@ -14,7 +14,6 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css"
     />
-    <link rel="stylesheet" href="css/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -25,12 +24,11 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css"
     />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap"
-      rel="stylesheet"
-    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/index.css">
   </head>
   <body>
     <!-- PAGE HEADER -->
@@ -53,6 +51,11 @@
             </li>
           </ul>
         </nav>
+        <button class="open-mobile-menu-btn">
+          <svg class="open-mobile-menu-icon" width="24" height="24" aria-label="mobile menu open icon">
+            <use href="./images/icons.svg#icon-burger"></use>
+          </svg>
+        </button>
         <!-- Address links -->
         <address class="address">
           <ul class="list-address list">
@@ -72,14 +75,14 @@
     </header>
     <main>
       <!-- Section Hero -->
-      <section class="section-hero img-hero">
+      <!-- <section class="section-hero img-hero">
         <div class="hero-contant container">
           <h1 class="description">Effective Solutions for Your Business</h1>
           <button class="order-button" type="button">Order Service</button>
         </div>
-      </section>
+      </section> -->
       <!-- Traits -->
-      <section class="traits">
+      <!-- <section class="traits">
         <div class="contant-traits container">
           <h2 class="text-traits visually-hidden">Traits</h2>
           <ul class="list-traits">
@@ -133,9 +136,9 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
       <!-- Our Team -->
-      <section class="team">
+      <!-- <section class="team">
         <div class="team-container container">
           <h2 class="menu-team">Our Team</h2>
           <ul class="list-team">
@@ -345,9 +348,9 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
       <!-- Our Portfolio -->
-      <section class="portfolio">
+      <!-- <section class="portfolio">
         <div class="portfolio-contant container">
           <h2 class="menu-portfolio">Our Portfolio</h2>
           <ul class="portfolio-list list">
@@ -462,9 +465,9 @@
           </ul>
         </div>
       </section>
-    </main>
+    </main> -->
     <!-- Page Footer -->
-    <footer class="page-footer">
+    <!-- <footer class="page-footer">
       <div class="footer-contant container">
         <div class="footer-contant-left">
           <a class="logotype-footer link" href="./index.html"
@@ -529,9 +532,9 @@
           </form>
         </div>
       </div>
-    </footer>
+    </footer> -->
     <!-- BACKDROP WITH MODAL WINDOW -->
-    <div class="backdrop is-open">
+    <!-- <div class="backdrop">
       <div class="modal">
         <button class="icon-close-btn" type="button">
           <svg class="icon-close-backdrop" width="8" height="8">
@@ -614,6 +617,23 @@
           <button class="send-button">Sand</button>
         </form>
       </div>
+    </div> -->
+    <!-- MOBILE MENU -->
+    <div class="mobile-menu">
+      <button class="mobale-menu-close-btn">
+        <svg class="mobile-icon-close-mobile" width="8" height="8">
+          <use href="./images/icons.svg#icon-close-black-18dp-2-1"></use>
+        </svg>
+      </button>
+      <ul class="list">
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
+      <ul class="list">
+        <li></li>
+        <li></li>
+      </ul>
     </div>
   </body>
 </html>
