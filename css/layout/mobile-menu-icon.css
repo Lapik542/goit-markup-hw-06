@@ -1,0 +1,91 @@
+@media screen and (min-width: 320px) {
+  /* MOBILE-MENU-ICON */
+  .open-mobile-menu-btn {
+    position: absolute;
+    background-color: transparent;
+    border: none;
+    top: 14px;
+    right: 16px;
+  }
+  .open-mobile-menu-btn:hover,
+  .open-mobile-menu-btn:focus {
+    fill: #404bbf;
+  }
+  .mobile-menu {
+    position: fixed;
+    z-index: 999999;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: #ffffff;
+    transform: translateX(100%);
+    transition: 500ms ease-out;
+  }
+  .mobile-menu.is-open {
+    transform: translateX(0%);
+  }
+  .mobile-menu-close-btn {
+    position: absolute;
+    background-color: transparent;
+    border: none;
+    top: 24px;
+    right: 24px;
+    border: 1px solid #e7e9fc;
+    border-radius: 50%;
+  }
+  /* MENU-MOBILE-ICON */
+  .menu-mobile-icon {
+    margin-top: 72px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    color: var(--NAVY-BLUE, #2e2f42);
+    font-family: Roboto;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+  }
+  .studio-mobile-icon {
+    color: var(--NAVY-BLUE, #2e2f42);
+  }
+  .portfolio-mobile-icon {
+    color: var(--NAVY-BLUE, #2e2f42);
+  }
+  .contacts-mobile-icon {
+    color: var(--NAVY-BLUE, #2e2f42);
+  }
+  /* ADDRESS-MOBILE-ICON */
+  .address-menu-mobile {
+    margin-top: 168px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+  .address-tel-menu-icon {
+    color: var(--SLATE, #434455);
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.4px;
+  }
+  .address-email-menu-icon {
+    color: var(--SLATE, #434455);
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.4px;
+  }
+  .social-menu-mobile-icon {
+    display: flex;
+    gap: 40px;
+    margin-top: 48px;
+  }
+}

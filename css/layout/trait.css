@@ -1,28 +1,11 @@
-@media screen and (max-width: 767px) {
-  .list-traits {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+@media screen and (min-width: 320px) {
+  .icons-block {
+    display: none;
   }
   .traits-list {
     width: 288px;
-  }
-  .text-traits-contant {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
-    color: var(--NAVY-BLUE, #2e2f42);
-    text-align: center;
-
-    /* Header 2 */
-    font-family: Roboto;
-    font-size: 36px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 40px;
-    /* 111.111% */
-    letter-spacing: 0.72px;
-    text-transform: capitalize;
   }
 }
