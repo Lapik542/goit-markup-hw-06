@@ -35,13 +35,6 @@
   .menu-link {
     padding-bottom: 20px;
   }
-  /* SECTION-HERO */
-  .list-traits {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 24px;
-  }
 }
 
 @media screen and (min-width: 1158px) {
