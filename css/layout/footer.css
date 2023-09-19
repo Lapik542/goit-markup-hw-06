@@ -1,4 +1,4 @@
-@media screen and (min-width: 320px) {
+@media screen and (min-width: 320px) and (max-width: 1157px) {
   /* FOOTER-CONTENT */
   .footer-contant {
     display: flex;
@@ -43,7 +43,7 @@
   }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1157px) {
   .footer-contant {
     display: flex;
     flex-direction: row;
@@ -51,5 +51,20 @@
   }
   .footer-contant-left {
     margin: 0;
+    margin-left: 10px;
+    margin-right: 24px;
+  }
+  .footer-contant {
+    flex-wrap: wrap;
+  }
+  .subscribe-form {
+    display: flex;
+    flex-direction: row;
+  }
+  .email-label {
+    margin-right: 24px;
+  }
+  .subscribe-paragraph-footer {
+    margin-right: 400px;
   }
 }
