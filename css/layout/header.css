@@ -43,7 +43,7 @@
     display: none;
   }
   .menu-link {
-    padding-bottom: 18px;
+    padding-bottom: 19px;
   }
   .list-address {
     display: flex;
@@ -65,17 +65,5 @@
   .list-traits {
     flex-wrap: nowrap;
     gap: 24px;
-  }
-  .sicial-list-icon1 {
-    display: flex;
-  }
-  .sicial-list-icon2 {
-    display: flex;
-  }
-  .sicial-list-icon3 {
-    display: flex;
-  }
-  .sicial-list-icon4 {
-    display: flex;
   }
 }
